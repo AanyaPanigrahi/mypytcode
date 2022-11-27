@@ -27,3 +27,28 @@ print(x[2]) #50
 #arrays store data in a contiguous memory location i.e. consecutive blocks / ordered collection
 #ex   [10,20,30]
 #index 0 ,1 ,2  
+
+#is instance to check data type - true or false
+print(isinstance("aanya",str)) #true
+print(isinstance("aanya",int)) #false
+print(isinstance("aanya",object)) #true
+print(isinstance(1,object)) #true
+#everything in python is an instance of object - only primitive class to be considered
+
+#id-gives memory address
+a=100
+print(id(a)) #id address
+print(hex(id(a))) #hexadecimal id address
+
+#end and sep format
+print(1,2,3,'riya',4) #1 2 3 riya 4 -> that is an in-built command to execute it with space
+#but we can overcome this by using sep
+print(1,2,3,'riya',4 , sep=',') #1,2,3,riya,4
+
+#in-built new line character
+print('hello') #hello
+print('world') #world in the next line
+#to break this new line character
+print('hello',end=' ') #space within
+print('world') #prints hello world in one line
+# but world will still have new line character
