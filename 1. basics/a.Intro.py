@@ -35,6 +35,16 @@ print(" \\\" \\\' ")
 #\\ -> \
 #\\\" -> \"
 
+#to treat escape sequence as a normal string
+print(r"line A \n line B") #use r -> outcome: line A \n line B
+#outcome: these are  /\/\/\/\ mountains
+print("these are /\\/\\/\\/\\ mountains")
+
+#to get emojis printed - use  unicode
+print("\U0001F602") #start with backslash \
+print("\U0001F604") #replace + by 000
+print("\U0001F618")
+
 if 6>4:
    print ('6 is greter than 4')
    print ("hey")
