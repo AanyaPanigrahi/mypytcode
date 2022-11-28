@@ -43,6 +43,15 @@ print(a[:5]) #just leave left side empty and it'll start from 0 0r mention 0
 #to slice till end
 print(a[2:]) #either leave right side empty or put last index
 
+#syntax - [start argument : stop argument : step argument]
+print("panigrahi"[2:6]) #nigr
+print("panigrahi"[1:8:1]) #anigrah
+print("panigrahi"[1:8:2]) #airh
+print("panigrahi"[1:8:3]) #agh
+print("panigrahi"[7::-2]) #hria backwards
+print("panigrahi"[-1::-1]) #iharginap
+print("panigrahi"[::-1]) #iharginap - trick to reverse
+
 #negative index
 #[10,20,30,40]
 # 0, 1, 2, 3 from start
