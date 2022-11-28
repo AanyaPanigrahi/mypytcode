@@ -1,5 +1,7 @@
-
 #Acceptable Variable Names
+#can have alphabets, numbers, alphanumerics
+#cannot sstart with a number
+#no space allowed in between
 
 myname = "john"
 print(myname)
