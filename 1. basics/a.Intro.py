@@ -1,4 +1,29 @@
+#PRINT FUNCTION
 print ("hello world")
+
+#double quotes can have single quotation within and vice versa
+print("Hello 'my' world") #hello 'my' world
+print('hello "my" world') #hello "my" world
+#print("hello "my" world") -> syntax error also for single quotation
+
+# ESCAPE SEQUENCES
+# \' single quote
+# \" double quote
+# \\ backslash
+# \n new line
+# \t tab
+# \b backspace
+print("hello \"my\" world") #hello "my" world
+print('I\'m Aanya')
+print("line A") #line A
+print("line B") #line B
+print("line A \nline B") #same output
+print("name\taanya") #name   aanya (tab - space)
+print("this is backslash\\") #this is  backslash\
+#\\ -> \ backslash
+#\\\\ -> \\ double backslash
+print("hell\blo") #hello
+#also use double quotes for using escape sequence
 
 if 6>4:
    print ('6 is greter than 4')
