@@ -29,7 +29,6 @@ if 6>4:
    print ('6 is greter than 4')
    print ("hey")
    
-   #100 lines of code but with no indentation/space error (while block creation)
 #hashtag is to comment it i.e the comment won't be compiled
 #organised
 x = 10 #number
