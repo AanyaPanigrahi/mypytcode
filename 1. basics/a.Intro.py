@@ -7,12 +7,14 @@ print('hello "my" world') #hello "my" world
 #print("hello "my" world") -> syntax error also for single quotation
 
 # ESCAPE SEQUENCES
+
 # \' single quote
 # \" double quote
 # \\ backslash
 # \n new line
 # \t tab
 # \b backspace
+
 print("hello \"my\" world") #hello "my" world
 print('I\'m Aanya')
 print("line A") #line A
@@ -24,6 +26,14 @@ print("this is backslash\\") #this is  backslash\
 #\\\\ -> \\ double backslash
 print("hell\blo") #hello
 #also use double quotes for using escape sequence
+
+#output: line A \n line B
+print("line A \\n line B")
+#output: \" \'
+print(" \\\" \\\' ")
+#\" -> "
+#\\ -> \
+#\\\" -> \"
 
 if 6>4:
    print ('6 is greter than 4')
