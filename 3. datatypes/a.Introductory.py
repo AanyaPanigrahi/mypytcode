@@ -52,3 +52,11 @@ print('world') #world in the next line
 print('hello',end=' ') #space within
 print('world') #prints hello world in one line
 # but world will still have new line character
+
+name="    aanya       "
+dots=".........."
+#strip() method - to remove not needed space
+print(name + dots)
+print(name.lstrip() + dots)
+print(name.rstrip() + dots)
+print(name.strip() + dots)
