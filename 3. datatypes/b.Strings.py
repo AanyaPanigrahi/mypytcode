@@ -73,6 +73,14 @@ print(x.strip())
 #to REPLACE
 x = "hello world"
 print (x.replace("h","a")) #will give output as aello world
+string="she is beautiful and is a good dancer"
+print(string.find("is")) #4 - 4th position
+#to find position of second is w.r.t first
+is_pos1=string.find("is") #---> gives num
+is_pos2=string.find("is",is_pos1+1)
+print(is_pos2)
+
+print(string.replace("is","was",1)) #i.e replace is with was for once
 
 #SPLITTING
 x = 'hello guys'
