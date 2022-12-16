@@ -102,3 +102,27 @@ y = "world"
 z = x + " " + y
 print(z) #hello world
 
+#CENTER METHOD
+name='aanya' #5
+# **aanya** , 5+4 = 9
+print(name.center(9,'*'))
+name=input("enter your name: ")
+print(name.center(len(name)+8,'*'))
+
+#Strings are Immutable
+string='one direction'
+string.replace('o','O')
+print(string) #one direction
+print(string.replace('o','O')) #One directiOn
+#can get the replacement by creating new string but the original string remains same
+new_string=string.replace('o','O')
+print(new_string) #One directiOn
+
+#assigning operators
+name='annie'
+name += 've' #name = name + 've'
+print(name) #annieve
+age = 18
+age *= 2 #36
+print(age)
+#age -= 2 --> 16
