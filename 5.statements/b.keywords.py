@@ -35,3 +35,10 @@ if 'k' in name:
     print('k is present in name')
 else:
     print('k is not present in name')
+
+#check EMPTY OR NOT
+name=input('enter your name: ')
+if name:
+    print(f'hello {name}, welcome to the site')
+else:
+    print('you didn\'t write your name')
