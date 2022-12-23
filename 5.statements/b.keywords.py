@@ -42,3 +42,17 @@ if name:
     print(f'hello {name}, welcome to the site')
 else:
     print('you didn\'t write your name')
+
+#break & continue KEYWORD
+
+for i in range(1,11):
+       if i==5:
+              break
+       print(i)
+#output --> 1,2,3,4
+
+#print 1 to 10 but not 5
+for i in range(1,11):
+       if i==5:
+              continue
+       print(i)
