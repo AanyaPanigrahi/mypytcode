@@ -21,3 +21,30 @@ total=0
 for j in range(1,n+1):
     total+=j
 print(total)
+
+#1256 --> 1+2+5+6
+total=0
+n=input('input a number: ')
+for i in range (0,len(n)):
+    total+=int(n[i])
+print(total)
+
+#Aanya Panigrahi
+#A : 1
+#a : 4
+#n : 2
+#y : 1
+#'' : 1
+#P : 1
+#i : 2
+#g : 1
+#r : 1
+#h : 1
+#name.count('a') or name.count(name[i])
+
+temp_var=""
+q=input('name:')
+for i in range(0,len(q)):
+    if q[i] not in temp_var:
+        print(f'{q[i]} : {q.count(q[i])}')
+        temp_var+=q[i]
