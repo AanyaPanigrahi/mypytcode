@@ -15,3 +15,9 @@ total=0
 for i in range(1,11):
     total+=i
 print(total)
+
+n=int(input('enter num: '))
+total=0
+for j in range(1,n+1):
+    total+=j
+print(total)
