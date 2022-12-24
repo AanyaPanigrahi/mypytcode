@@ -49,3 +49,25 @@ for i in range(0,len(q)):
     if q[i] not in temp_var:
         print(f'{q[i]} : {q.count(q[i])}')
         temp_var+=q[i]
+
+#step argument
+#odd numbers 1 to 10
+for i in range(1,12,2):
+    print(i) #1,3,5,7,9,11
+
+#10,9,8,.. upto 0
+for i in range(10,-1,-1):
+    print(i)
+
+name="aanya"
+# for i in range(len(name)):
+#     print(name[i])
+for i in name:
+    print(i)
+
+#1256 --> 1+2+5+6
+num=input()
+total=0
+for i in num:
+    total+=int(i)
+print(total)
