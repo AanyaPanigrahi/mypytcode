@@ -79,3 +79,33 @@ def new_greatest(p,q,r):
     bigger=greater(p,q)
     return greater(bigger,r) #or greater(greater(p,q),r)
 print(new_greatest(10,40,30))
+
+#EXERCISE 2
+
+#define a is_palindrome function that take one word in string as input
+#and if it is palindrome return true else return false
+#example - is_palindrome("madam") --> True
+#example - is_palindrome("hello") --> False
+
+#logic(algorithm)
+#step1 - reverse the string
+#step2 - compare the reversed string with the original one
+
+def is_palindrome(word):
+    reversed_word=word[::-1]
+    if word==reversed_word:
+        return True
+    else:
+        return False
+print(is_palindrome('aanya'))
+print(is_palindrome('madam'))
+
+#way 2
+# def is_palindrome(word):
+#     if word==word[::-1]:
+#         return True
+#     return False
+
+#way 3
+# def is_palindrome(word):
+#     return word==word[::-1]
