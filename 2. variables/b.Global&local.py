@@ -27,3 +27,13 @@ print(y)
 #1)global variables inside func things gets compiled first then local
 #i.e print(x) before print ("my name is " + x,y,z)
 #2)also outside func stuffs gets compiled later as we are working on func first i.e print(y)
+
+#scope
+x=5 #global variable
+def func():
+    global x #can change global too
+    x=7
+    return x
+print(x) #5
+print(func()) #7
+print(x) #7 --> once we call the function then only the value changes
