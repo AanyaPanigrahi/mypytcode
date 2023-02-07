@@ -1,4 +1,4 @@
-#LOOPING THROUGH LIST
+#LOOPING THROUGH LISTS
 mylist4 = [10,20,30,40]
 for x in mylist4:
        print(x) #10 next line 20 next line 30...
@@ -32,7 +32,7 @@ print(listA) #400,200,90,20,10
 
 my_list2 = ['banana', 'Orange','Apple','guava']
 my_list2.sort()
-print(my_list2) #A O b g
+print(my_list2) #A O b g - sequence
 
 my_list2.sort(key = str.lower)
 print(my_list2) #A b g O
