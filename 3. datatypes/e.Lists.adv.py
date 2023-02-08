@@ -136,10 +136,10 @@ def square_list(q):
     return square
 print(list(range(1,11)))
 
+# def reverselist(l):
+#     return l[::-1]
+
 def reverse_list(m):
     m.reverse()
     return m
 print(reverse_list(nums))
-
-# def reverselist(l):
-#     return l[::-1]
