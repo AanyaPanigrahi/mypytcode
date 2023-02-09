@@ -101,11 +101,11 @@ print(is_palindrome('aanya'))
 print(is_palindrome('madam'))
 
 #way 2
-# def is_palindrome(word):
-#     if word==word[::-1]:
-#         return True
-#     return False
+def is_palindrome(word):
+    if word==word[::-1]:
+        return True
+    return False
 
 #way 3
-# def is_palindrome(word):
-#     return word==word[::-1]
+def is_palindrome(word):
+    return word==word[::-1]
